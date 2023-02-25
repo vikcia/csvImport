@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Csv file upload</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="row">
+    <div class="col-3 col-s-3 menu">
+        <form enctype="multipart/form-data" action="upload__.php" method="POST">
+            <div class="title">File importing</div>
+<!--            <legend style="border:black 1px solid">File importing</legend>-->
+            <input name="userfile" type="file" />
+            <!--        <input type="submit" value="Send File" />-->
+            <button type="submit">Upload CSV file</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
